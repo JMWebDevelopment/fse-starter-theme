@@ -24,7 +24,7 @@ if ( ! function_exists( 'fse_starter_theme_support' ) ) :
 		add_theme_support( 'wp-block-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( 'style.css', 'https://fonts.googleapis.com/css2?family=Montserrat+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap' );
+		add_editor_style( 'style.css', 'https://fonts.googleapis.com/css2?family=Montserrat+Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap' );
 
 	}
 

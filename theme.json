@@ -1,0 +1,92 @@
+{
+	"version": 2,
+    "settings": {
+		"appearanceTools": true,
+		"color": {
+            "palette": [
+                {
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
+				},
+                {
+					"slug": "off-black",
+					"color": "#262626",
+					"name": "Off Black"
+				},
+                {
+					"slug": "dark-grey",
+					"color": "#5F5F5F",
+					"name": "Dark Grey"
+				},
+                {
+					"slug": "light-grey",
+					"color": "#CBCBCB",
+					"name": "Light Grey"
+				},
+                {
+					"slug": "off-white",
+					"color": "#efefef",
+					"name": "Off White"
+				},
+                {
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				}
+            ]
+        },
+        "spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+        "typography": {
+			"dropCap": false,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFamily": "\"Montserrat\", sans-serif",
+					"name": "Montserrat",
+					"slug": "montserrat"
+				},
+                {
+					"fontFamily": "\"Lato\", sans-serif",
+					"name": "Lato",
+					"slug": "Lato"
+				}
+			],
+			"fontSizes": [
+				{
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"size": "clamp(1.75rem, 3vw, 2.25rem)",
+					"slug": "x-large"
+				}
+			]
+		},
+        "layout": {
+			"contentSize": "780px",
+			"wideSize": "1200px"
+		}
+    }
+}
